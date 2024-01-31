@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  }
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: initial;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin-top: 0px;
+}
+
+
+button {
+  transition-duration: 0.5s;
+  position: absolute;
+  font-size: 25px;
+  border: none;
+  border-radius: 18px;
+  background-color: white;
+  width: 20%;
+  padding: 6px;
+}
+
+#btn1 {
+  bottom: 33%;
+  left: 29.5%;
+}
+
+#btn2{
+  bottom: 33%;
+  left: 50.5%;
+}
+
+
+
+button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+button:hover {
+  padding-right: 25px;
+  border: 2px solid black;
+  color: black;
+  background-color: antiquewhite;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover:after {
+  opacity: 1;
+  color: black;
+}
+
+button a {
+  text-decoration: none;
+  color: darkorange;
+  font-family: Calibri;
+}

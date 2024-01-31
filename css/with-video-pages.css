@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: orange;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: initial;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-top: 0px;
+  }

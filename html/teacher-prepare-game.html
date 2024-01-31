@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/teacher-prepare-game.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="../video/prepare-the-game.mp4" type="video/mp4">>
+    </video>
+    <form>
+
+        <!-- <label for="teacherCode"></label>
+        <input type="text" id="teacherCode" class="formOneLine" name="teacherCode" placeholder="Teacher code "> -->
+
+        <label for="gameCode"></label>
+        <input type="text" id="gameCode" class="formOneLine" name="gameCode" placeholder="Game code(8 characters)">
+
+        <label for="operator"></label>
+        <input type="text" id="operator" class="formOneLine" name="operator" placeholder="Arithmetic operation">
+
+        <label for="sum"></label>
+        <input type="text" id="sum" class="formOneLine" name="sum" placeholder="sum or product">
+        <br><br>
+        <a id="finished" href="../html/teacher-finish-prepare.html"><button type="button">I finished</button></a>
+    </form>
+    <script src="../js/teacher-prepare-game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/game.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <audio src="../sounds/Adventure.mp3" muted></audio>
+
+        <video autoplay muted loop id="myVideo">
+            <source src="../video/background.mp4" type="video/mp4">
+        </video>
+
+    </main>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h3>Congratulations!</h3>
+            <p>You won the game!</p>
+            <p>Number of tries: <span id="tries"></span></p>
+            <p>Seconds taken: <span id="time"></span></p>
+            <a href="../html/board.html">
+                Restart Game
+            </a>
+            <br>
+            <a href="../html/student-into-game.html">
+                Another Game
+            </a>
+            <br>
+            <a href="../html/win.html">
+                I want to end and get feedback
+            </a>
+        </div>
+    </div>
+
+
+    <script src="../js/card.js"></script>
+</body>
+
+</html>

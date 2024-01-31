@@ -1,0 +1,69 @@
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+     }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: initial;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-top: 0px;
+  }
+
+button {
+    transition-duration: 0.5s;
+    position: absolute;
+    font-size: 25px;
+    border: none;
+    border-radius: 18px;
+    background-color:rgb(0, 0, 59);
+    width: 10%;
+    padding: 6px;
+  }
+  
+  #btn1 {
+    bottom: 36%;
+    left: 40%;
+  }
+  
+  #btn2{
+    bottom: 36%;
+    left: 50.5%;
+  }
+
+  button:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+        border: 2px solid rgb(0, 0, 59);
+    color: rgb(0, 0, 59);
+    background-color: antiquewhite;
+  }
+  
+  button a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 59);
+  }
+  
+    
+  button a {
+    text-decoration: none;
+    color: white;
+    font-family: Calibri;
+  }

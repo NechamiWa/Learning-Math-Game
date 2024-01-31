@@ -1,0 +1,1 @@
+let video = document.getElementById("myVideo");

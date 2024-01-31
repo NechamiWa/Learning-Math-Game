@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: initial;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin-top: 0px;
+}
+
+form {
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  display: flex;
+  margin-top: 620px;
+}
+
+.formOneLine {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  border: 1.5px solid rgb(0, 0, 66);
+  background-color: peachpuff;
+  color: rgb(0, 0, 66);
+  font-size: large;
+}
+
+
+
+button {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border: solid peachpuff;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: black;
+  background-color: peachpuff;
+  border: 1.5px solid rgb(0, 0, 66);
+  border-radius: 10px;
+}

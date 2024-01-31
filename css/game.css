@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: fit-content;
+  height: fit-content;
+  z-index: -1;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #000000;
+  margin-top: 100px;
+  text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: stretch;
+  flex-direction: column;
+}
+
+.row {
+  margin-bottom: -70px;
+  display: flex;
+
+}
+
+.backCard {
+  background-color: lightcoral;
+  border-radius: 15px;
+  height: 100px;
+  width: 100px;
+  border: solid black 6px;
+  font-size: 85px;
+  margin: 10px;
+  text-align: center;
+  font-family: fantasy;
+  position: sticky;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to bottom right, rgb(230, 158, 158), rgb(232, 150, 150), lightcoral);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.backCard:hover {
+  transform: scale(1.1);
+}
+
+#stackBackArea {
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 263px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to bottom right, rgb(125, 123, 123), rgb(66, 65, 65));
+}
+
+
+#stackBack {
+  background-color: white;
+  opacity: 80%;
+  height: 159px;
+  width: 223px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+}
+
+#stackButton {
+  background-color: lightpink;
+  height: 50px;
+  width: 50px;
+  font-size: 10px;
+  font-family: fantasy;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.popup-content {
+  background-color: black;
+  margin-top: 10%;
+  margin-left: 25%;
+  opacity: 70%;
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 3em;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 100px;
+  text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: lightpink;
+  font-size: 1.5em;
+  font-family: cursive;
+}
+
+a {
+  font-family: cursive;
+  color: white;
+  font-size: large;
+}
+
+
+
+
+
